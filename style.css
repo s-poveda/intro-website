@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding-left: .2%;
+  padding-right: .2%;
+}
+
 header {
-  font-family:
+  font-family: Merriweather, serif;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  font-weight: bold;
+  text-align: right;
+  background-color: #1892dd;
+}
+
+.big-bold {
+  font-weight: normal;
+  font-size: 36px;
+}
+.align-right {
+  padding-right: 0%;
+
+}
+
+a:link {
+  color: #8FFF49;
+}
+a:hover{
+  font-weight: bold;
+  text-decoration: underline dotted;
+}
+a:active {
+  color: purple;
+}
+a:visited {
+  color: gray;
 }
