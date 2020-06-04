@@ -14,24 +14,40 @@
         <h1>Samuel Poveda</h1>
       </div>
       <nav class="align-right-with-padding big-bold">
-        <a href="#home">Home</a>
+        <a href="#intro">Home</a>
+        <a href="#about">About me</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main>
-      <!-- #home has introduction details -->
-      <article id="home">
-        <!-- dynamic greeting is based on the time. "good morning/afternoon/evening" from ./script.js -->
-<!-- TODO: ask how to get client timezone and time correct -->
-        <div id="dynamic-greeting"></div>
+      <article>
+        <!-- #home has introduction -->
+        <!-- dynamic greeting is based on the time. "good morning/afternoon/evening"-->
+        <section id="intro">
+          <div id="dynamic-greeting"></div>
+          <p>I'm Sam, a high school graduate in Asheville, North Carolina, with a whole lot of time for programming!</p>
+          <br>
+          <p>I'm interested in quite a few things, including, but certainly not limited to:</p>
+            <ul>
+              <li>Developing Discord bots with Node and DiscordJS</li>
+              <li>Bouldering</li>
+              <li>Playing Leauge of Legends</li>
+            </ul>
+        </section>
 
-      </article>
-      <div id="contact">
-        You can contact me through my GitHub or my email:
-        - GitHub Page link
-        - Email address
-      </div>
+        <div class="space-sm"></div>
+        <hr>
+        <div class="space-sm"></div>
+
+      <section id="contact">
+        <p>You can contact me through my GitHub or my email:</p>
+        <ol>
+          <li><a href="https://github.com/s-poveda/" target="_blank">GitHub</a></li>
+          <li>Email address</li>
+        </ol>
+      </section>
+    </article>
     </main>
 
     <footer>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans:ital@0;1&display=swap');
 
 * {
   padding: 0 0;
@@ -6,45 +6,48 @@
   margin: 0 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 header {
   margin: 0 0;
-  font-family: Merriweather, serif;
-  background-color: #1892dd;
-  height: 20em;
+  height: 25vh;
 }
 
+header * { background-color: #01c8d0; }
+
+header, h1, h2, h3 { font-family: Merriweather, serif; }
+
 nav {
-  height: 50px;
+  height: 5vh;
   width: 100vw;
-  background-color: #1892dd;
   position: fixed;
 }
 
-main {
-  padding: 0 15vw;
+main { padding: 0 15vw; }
+
+p, li { font-family: 'Noto Sans', sans-serif; }
+
+/* TODO: indent li's, not center*/
+li { text-align: center; }
+
+
+hr {
+  border: 5px solid;
+  border-radius: 3px;
+
 }
 
-a:link {
-  color: #8FFF49;
-}
+a:link { color: #a04e44; }
 a:hover{
   font-weight: bold;
   text-decoration: underline dotted;
 }
-a:active {
-  color: purple;
-}
-a:visited {
-  color: gray;
-}
+a:active { color: purple; }
+a:visited { color: gray; }
 
 .very-big-and-bold {
   font-weight: bold;
-  font-size: 5em;
+  font-size: 10vh;
 }
 
 .align-right-with-padding {
@@ -53,9 +56,11 @@ a:visited {
 }
 
 .page-header-title {
+  color: hsla(0, 00%, 100%, 1);
   text-align: center;
 }
-
-.page-header-title > h1 {
-  color: hsla(0, 00%, 100%, 1);
+/* IDEA: check vp max for vertical viewing */
+.space-sm {
+  height: 6vh;
+  width: auto;
 }
