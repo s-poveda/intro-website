@@ -18,9 +18,9 @@ header * { background-color: #01c8d0; }
 header, h1, h2, h3 { font-family: Merriweather, serif; }
 
 nav {
-  height: 5vh;
-  width: 100vw;
-  position: fixed;
+  height: 12vh;
+  width: auto;
+  font-size: 30px;
 }
 
 main { padding: 0 15vw; }
@@ -45,9 +45,9 @@ a:hover{
 a:active { color: purple; }
 a:visited { color: gray; }
 
-.very-big-and-bold {
+.big-and-bold {
   font-weight: bold;
-  font-size: 10vh;
+  font-size: 7vh;
 }
 
 .align-right-with-padding {
@@ -58,9 +58,15 @@ a:visited { color: gray; }
 .page-header-title {
   color: hsla(0, 00%, 100%, 1);
   text-align: center;
+  height: 10vh;
 }
 /* IDEA: check vp max for vertical viewing */
-.space-sm {
+.spacer-sm {
   height: 6vh;
+  width: auto;
+}
+
+.spacer-bg {
+  height: 25vh;
   width: auto;
 }
