@@ -1,43 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans:ital@0;1&display=swap');
 
 * {
-  padding: 0 0;
   box-sizing: border-box;
-  margin: 0 0;
+  margin: 0;
 }
 
 html { scroll-behavior: smooth; }
 
-header {
-  margin: 0 0;
-  height: 25vh;
+footer {
+  color: #fff;
+  height: 10vh;
+  width: 100%;
 }
 
-header * { background-color: #01c8d0; }
+header *, footer { background-color: #006272; }
 
 header, h1, h2, h3 { font-family: Merriweather, serif; }
 
-nav {
-  height: 12vh;
-  width: auto;
-  font-size: 30px;
+header {
+  margin: 0 0;
+  height: 16vh;
 }
 
-main { padding: 0 15vw; }
+h2, h3, p, li {
+  line-height: 1.5em;
+}
 
-p, li { font-family: 'Noto Sans', sans-serif; }
+p, li {
+  font-family: 'Noto Sans', sans-serif;
+}
 
-/* TODO: indent li's, not center*/
-li { text-align: center; }
+nav {
+  height: 36px;
+  width: 100%;
+  font-size: 30px;
+  padding-right: 5vw;
+  padding-bottom: 1.5em;
+  margin-top: 24px;
+  text-align: right;
+}
+
+nav > a { margin: 0 .5em 0;}
+
+main { padding: 0 10vw 15vh; }
+
+li {
+  margin-left: 1em;
+  padding-left: 2em;
+}
 
 
 hr {
   border: 5px solid;
   border-radius: 3px;
-
 }
 
-a:link { color: #a04e44; }
+a:link { color: #FBB93E; }
 a:hover{
   font-weight: bold;
   text-decoration: underline dotted;
@@ -45,15 +63,12 @@ a:hover{
 a:active { color: purple; }
 a:visited { color: gray; }
 
-.big-and-bold {
+.big-and-bold, .bold-medium {
   font-weight: bold;
-  font-size: 7vh;
 }
 
-.align-right-with-padding {
-  padding-right: 5%;
-  text-align: right;
-}
+.big-and-bold { font-size: 46px; }
+.bold-medium { font-size: 26px;}
 
 .page-header-title {
   color: hsla(0, 00%, 100%, 1);
@@ -69,4 +84,31 @@ a:visited { color: gray; }
 .spacer-bg {
   height: 25vh;
   width: auto;
+}
+
+#home {
+	height: 30vh;
+}
+
+#intro-content {
+	position: relative;
+	left: 45%;
+	bottom: 30vh;
+}
+
+#intro-picture {
+  width: 25vw;
+  position: relative;
+  left: 9vw;
+  bottom: 6vh;
+}
+ #dynamic-greeting {
+   position: relative;
+   bottom: 3em;
+}
+
+#about, #contact {
+  padding-left: 5em;
+  padding-right: 5em;
+  text-align: center;
 }
