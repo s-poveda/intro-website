@@ -1,4 +1,5 @@
 # ignores files setting up linter
+node_modules/
 
   #JSON packages
 *.json
@@ -6,4 +7,3 @@
   #Linter rules
 .eslintrc.js
 
-node_modules/
