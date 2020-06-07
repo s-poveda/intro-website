@@ -8,6 +8,8 @@
 html { scroll-behavior: smooth; }
 
 footer {
+  text-align: center;
+  padding-top: 5vh;
   color: #fff;
   height: 10vh;
   width: 100%;
@@ -56,12 +58,11 @@ hr {
 }
 
 a:link { color: #FBB93E; }
-a:hover{
+a:hover {
   font-weight: bold;
   text-decoration: underline dotted;
 }
 a:active { color: purple; }
-a:visited { color: gray; }
 
 .big-and-bold, .bold-medium {
   font-weight: bold;
@@ -88,6 +89,7 @@ a:visited { color: gray; }
 
 #home {
 	height: 30vh;
+  width: 100%;
 }
 
 #intro-content {
