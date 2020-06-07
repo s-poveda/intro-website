@@ -59,6 +59,7 @@ li {
 hr {
   border: 5px solid;
   border-radius: 3px;
+  color: #808080;
 }
 
 a:link { color: #FBB93E; }
