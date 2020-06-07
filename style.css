@@ -9,7 +9,7 @@ html { scroll-behavior: smooth; }
 
 footer {
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 2vh;
   color: #fff;
   height: 10vh;
   width: 100%;
@@ -36,13 +36,13 @@ nav {
   height: 36px;
   width: 100%;
   font-size: 30px;
-  padding-right: 5vw;
+  padding-right: 9.5vw;
   padding-bottom: 1.5em;
   margin-top: 24px;
   text-align: right;
 }
 
-nav > a { margin: 0 .5em 0;}
+nav > a { margin: 0 .3em 0;}
 
 main { padding: 0 10vw 15vh; }
 
@@ -92,10 +92,16 @@ a:active { color: purple; }
   width: 100%;
 }
 
+#dynamic-greeting {
+  position: relative;
+  bottom: 3em;
+}
+
 #intro-content {
 	position: relative;
 	left: 45%;
 	bottom: 30vh;
+  width: 50vw;
 }
 
 #intro-picture {
@@ -103,10 +109,6 @@ a:active { color: purple; }
   position: relative;
   left: 9vw;
   bottom: 6vh;
-}
- #dynamic-greeting {
-   position: relative;
-   bottom: 3em;
 }
 
 #about, #contact {
