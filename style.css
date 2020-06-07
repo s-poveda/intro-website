@@ -15,6 +15,7 @@ footer {
   width: 100%;
 }
 
+/* Nav doesn't inherit bg color so "*" selector used */
 header *, footer { background-color: #006272; }
 
 header, h1, h2, h3 { font-family: Merriweather, serif; }
@@ -42,10 +43,13 @@ nav {
   text-align: right;
 }
 
+/* spcacing out links in nav */
 nav > a { margin: 0 .3em 0;}
 
-main { padding: 0 10vw 15vh; }
+/* spaces out header and footer from footer */
+main { padding: 25vh 10vw 10vh; }
 
+/* indentation for li */
 li {
   margin-left: 1em;
   padding-left: 2em;
@@ -76,40 +80,40 @@ a:active { color: purple; }
   text-align: center;
   height: 10vh;
 }
+
 /* IDEA: check vp max for vertical viewing */
 .spacer-sm {
   height: 6vh;
   width: auto;
 }
 
-.spacer-bg {
-  height: 25vh;
-  width: auto;
-}
-
 #home {
 	height: 30vh;
-  width: 100%;
+  width: 80vw;
 }
 
+/* greeting leaves 2 black lines under it */
 #dynamic-greeting {
   position: relative;
-  bottom: 3em;
+  bottom: 2em;
 }
 
+/* moves intro contents to be beside intro-picure */
 #intro-content {
 	position: relative;
 	left: 45%;
-	bottom: 30vh;
+	bottom: 100%;
   width: 50vw;
 }
+
 
 #intro-picture {
   width: 25vw;
   position: relative;
-  left: 9vw;
-  bottom: 6vh;
+  left: 10%;
+  bottom: 10%;
 }
+
 
 #about, #contact {
   padding-left: 5em;
