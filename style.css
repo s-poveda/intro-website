@@ -79,7 +79,7 @@ a:active { color: purple; }
 .page-header-title {
   color: hsla(0, 00%, 100%, 1);
   text-align: center;
-  height: 10vh;
+  height: 9vh;
 }
 
 /* IDEA: check vp max for vertical viewing */
